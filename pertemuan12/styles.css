@@ -1,0 +1,48 @@
+/* p {
+    color: #f85f73;
+}
+
+p.error{
+    color: #d4a5a5;
+}
+
+p.success.feedback{
+    color: #384259;
+    border: 5px solid #a8e6cf;
+}*/
+#top-container{
+    background-color: #679b9b ;
+}
+#bottom-container{
+    background-color: #b693fe;
+}
+
+div .error{
+    color: #fce38a;
+}
+
+a[href] {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e6a4b4;
+}
+a[href*="google"]{
+    background-color: #a9eee6;
+}
+a[href$=".ac.id"]{
+    background-color: #a6acec;
+}
+
+h1:hover{
+    color: white;
+    background-color: black;
+}
+
+p::selection {
+    background-color: #3fbac2;
+    color: thistle;
+}
+a::before{
+    content: "Link -";
+}
