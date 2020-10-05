@@ -1,0 +1,22 @@
+.img1 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid salmon;
+   
+}
+.img2 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid salmon;
+    margin-left: 160px;
+}
+.img3 {
+    display: block;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 10px solid salmon;
+    margin-left: 320px;
+}
+
