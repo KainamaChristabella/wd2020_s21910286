@@ -53,3 +53,13 @@ let tinggi = prompt("Input tinggi badan anda : cm");
 let bmi = berat / (tinggi*tinggi)
 
 console.log ("BMI = " + bmi);
+
+if (bmi<18.5){
+    console.log("Kurus");
+}else if (bmi<=22.9){
+    console.log("Normal");
+}else if (bmi<24.9){
+    console.log("Overweight")
+}else {
+    console.log("Obesitas");
+}
